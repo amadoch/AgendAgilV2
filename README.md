@@ -1,2 +1,2 @@
 # AgendAgilV2
-Reconstrucción de AgendaAgil en web
+Agenda practica para navegadores web
