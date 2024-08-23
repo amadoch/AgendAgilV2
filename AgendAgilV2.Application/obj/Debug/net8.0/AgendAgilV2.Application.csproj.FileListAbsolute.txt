@@ -1,0 +1,16 @@
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\AgendAgilV2.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\AgendAgilV2.Application.AssemblyInfoInputs.cache
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\AgendAgilV2.Application.AssemblyInfo.cs
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\AgendAgilV2.Application.csproj.CoreCompileInputs.cache
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\AgendAgilV2.Application.sourcelink.json
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\bin\Debug\net8.0\AgendAgilV2.Application.deps.json
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\bin\Debug\net8.0\AgendAgilV2.Application.dll
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\bin\Debug\net8.0\AgendAgilV2.Application.pdb
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\bin\Debug\net8.0\AgendAgilV2.Domain.dll
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\bin\Debug\net8.0\AgendAgilV2.Domain.pdb
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\AgendAgilV2.Application.csproj.AssemblyReference.cache
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\AgendAgi.B9ABC59E.Up2Date
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\AgendAgilV2.Application.dll
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\refint\AgendAgilV2.Application.dll
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\AgendAgilV2.Application.pdb
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2.Application\obj\Debug\net8.0\ref\AgendAgilV2.Application.dll

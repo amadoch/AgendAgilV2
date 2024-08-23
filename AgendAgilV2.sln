@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendAgilV2.Domain", "AgendAgilV2.Domain\AgendAgilV2.Domain.csproj", "{808968F4-B44E-4513-8683-9F53C5BDA29D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendAgilV2.Domain", "AgendAgilV2.Domain\AgendAgilV2.Domain.csproj", "{808968F4-B44E-4513-8683-9F53C5BDA29D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendAgilV2.Application", "AgendAgilV2.Application\AgendAgilV2.Application.csproj", "{66BA3FC6-528B-4133-B578-53F18B69C084}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendAgilV2.Application", "AgendAgilV2.Application\AgendAgilV2.Application.csproj", "{66BA3FC6-528B-4133-B578-53F18B69C084}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendAgilV2.Infrastructure", "AgendAgilV2.Infrastructure\AgendAgilV2.Infrastructure.csproj", "{7D061465-8D95-44A6-BF14-1F9C9D761268}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendAgilV2.Infrastructure", "AgendAgilV2.Infrastructure\AgendAgilV2.Infrastructure.csproj", "{7D061465-8D95-44A6-BF14-1F9C9D761268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendAgilV2", "AgendAgilV2\AgendAgilV2.csproj", "{E2BC0313-77DA-4F56-8597-BA396700288E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7D061465-8D95-44A6-BF14-1F9C9D761268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D061465-8D95-44A6-BF14-1F9C9D761268}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D061465-8D95-44A6-BF14-1F9C9D761268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2BC0313-77DA-4F56-8597-BA396700288E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BC0313-77DA-4F56-8597-BA396700288E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BC0313-77DA-4F56-8597-BA396700288E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BC0313-77DA-4F56-8597-BA396700288E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
