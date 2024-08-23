@@ -1,5 +1,7 @@
+using AgendAgilV2.Application.Interfaces;
 using AgendAgilV2.Components;
 using AgendAgilV2.Infrastructure.Context;
+using AgendAgilV2.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
@@ -15,6 +17,7 @@ builder.Services.AddDbContextFactory<ScheduleDBContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 
+builder.Services.AddScoped<IScheduleRepository, ScheduleRepository>(); 
 
 var app = builder.Build();
 

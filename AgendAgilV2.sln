@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendAgilV2.Application", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendAgilV2.Infrastructure", "AgendAgilV2.Infrastructure\AgendAgilV2.Infrastructure.csproj", "{7D061465-8D95-44A6-BF14-1F9C9D761268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendAgilV2", "AgendAgilV2\AgendAgilV2.csproj", "{E2BC0313-77DA-4F56-8597-BA396700288E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendAgilV2", "AgendAgilV2\AgendAgilV2.csproj", "{E2BC0313-77DA-4F56-8597-BA396700288E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

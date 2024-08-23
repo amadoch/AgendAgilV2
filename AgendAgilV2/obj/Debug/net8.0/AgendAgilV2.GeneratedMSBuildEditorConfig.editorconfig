@@ -22,20 +22,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Pages/AddNew.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGROZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Routes.razor]
@@ -49,7 +37,3 @@ build_metadata.AdditionalFiles.CssScope =
 [E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-0v6lqz1b5l
-
-[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-ik36dg5x2d

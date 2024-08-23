@@ -99,7 +99,6 @@ E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\staticwebasse
 E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AgendAgilV2.props
 E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\staticwebassets.pack.json
 E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
-E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\scopedcss\bundle\AgendAgilV2.styles.css
 E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\scopedcss\projectbundle\AgendAgilV2.bundle.scp.css
 E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\AgendAgi.C348D01A.Up2Date
