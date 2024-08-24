@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgendAgilV2.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43aa26c9a9a08a3a44c84fb45a3626195afb0cd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08c3a51a4f4ff4574f62c62124a36c81480cff74")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgendAgilV2.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgendAgilV2.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

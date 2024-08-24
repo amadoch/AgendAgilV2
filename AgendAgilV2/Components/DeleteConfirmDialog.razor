@@ -1,0 +1,24 @@
+﻿@if(Show)
+{
+    <div class="confirm-dialog-container">
+        <div class="confirm-dialog">
+            <h3>¿Estas seguro?</h3>
+            <div class="d-flex flex-row justify-content-end mt-3">
+                <button @onclick="OnCancel" class="btn btn-secondary shadow-none">Cancelar</button>
+                <button @onclick="OnAgreed" class="btn btn-danger shadow-none ms-3">Aceptar</button>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public bool Show { get; set; }
+
+    [Parameter]
+    public EventCallback OnCancel { get; set; }
+
+    [Parameter]
+    public EventCallback OnAgreed { get; set; }
+
+}

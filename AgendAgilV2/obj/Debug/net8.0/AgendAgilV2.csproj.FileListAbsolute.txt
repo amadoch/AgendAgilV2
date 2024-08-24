@@ -107,3 +107,4 @@ E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\refint\AgendA
 E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\AgendAgilV2.pdb
 E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\AgendAgilV2.genruntimeconfig.cache
 E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\ref\AgendAgilV2.dll
+E:\Arca\Workspace\amadoch\AgendAgilV2\AgendAgilV2\obj\Debug\net8.0\scopedcss\Components\DeleteConfirmDialog.razor.rz.scp.css

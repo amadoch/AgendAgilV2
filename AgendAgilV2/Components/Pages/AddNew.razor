@@ -1,64 +1,17 @@
 ﻿@page "/add-new"
-@inject IScheduleRepository Repository
 @inject NavigationManager Navigation
+@inject IScheduleRepository Repository
 
+<PageTitle>Crear Cronograma</PageTitle>
 
 <div class="row justify-content-center">
     <div class="col-6">
-        <EditForm Enhance="true" method="post" FormName="AddScheduleForm" OnValidSubmit="AddSchedule" Model="schedule" autocomplete="off">
-            <h3>
-                Añade un nuevo Evento
-            </h3>
-            <div class="mb-3">
-                <label for="title" class="form-label">
-                    Asunto
-                </label>
-                <InputText id="title" @bind-Value="schedule.Title" class="form-control shadow-none" />
-            </div>
-            <div class="mb-3">
-                <label for="description" class="form-label">
-                    Descipción
-                </label>
-                <InputText id="description" @bind-Value="schedule.Description" class="form-control shadow-none" />
-            </div>
-            <div class="mb-3">
-                <label for="deadline" class="form-label">
-                    Fecha Limite
-                </label>
-                <InputDate id="deadline" @bind-Value="schedule.DeadLine" class="form-control shadow-none" />
-            </div>
-            <div class="mb-3">
-                <label for="category" class="">
-                    Categoría
-                </label>
-                <InputSelect id="category" @bind-Value="schedule.Category" class="form-control shadow-none">
-                    <option value="0">
-                        Selecciona una Categoría
-                    </option>
-                    @foreach(var category in Enum.GetValues(typeof(Category)))
-                    {
-                        <option value="@category">
-                            @category.ToString()
-                        </option>
-                    }
-                </InputSelect>
-            </div>
-            <div class="mb-3">
-                <button class="btn btn-primary shadow-none">
-                    Añadir
-                </button>
-                <DataAnnotationsValidator />
-                <ValidationSummary />
-            </div>
-        </EditForm>
+        <ScheduleForm IsEditMode="false" OnValidScheduleSubmit="AddSchedule" />
     </div>
 </div>
 
 @code {
-    [SupplyParameterFromForm]
-    public Schedule schedule { get; set; } = new();
-
-    private async Task AddSchedule()
+    private async Task AddSchedule(Schedule schedule)
     {
         await Repository.AddAsync(schedule);
         Navigation.NavigateTo("/");

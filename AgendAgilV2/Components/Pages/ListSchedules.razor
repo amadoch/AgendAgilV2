@@ -1,0 +1,43 @@
+﻿@page "/"
+@inject IScheduleRepository Repository
+
+<PageTitle>AgendAgil_V2</PageTitle>
+
+<div class="row justify-content-center">
+    <div class="col-6">
+        <h3>Cronogramas de actividades</h3>
+        <a href="/add-new" class="btn btn-primary shadow-none mb-3">
+            Nuevo
+        </a>
+        @if (schedules is null)
+        {
+            <div class="justify-content-center">
+                <p>Cargando, Por Favor Espere...</p>
+            </div>
+        }
+        else if (schedules.Any())
+        {
+            @foreach (var schedule in schedules)
+            {
+                <ScheduleDisplay @rendermode="InteractiveServer" schedule="schedule"/>
+            }
+        }
+        else
+        {
+            <div class="justify-content-center">
+                <p>Agenda no Encontrada</p>
+            </div>
+        }
+    </div>
+</div>
+
+
+@code {
+    private List<Schedule>? schedules;
+
+    protected override async Task OnInitializedAsync()
+    {
+        schedules = await Repository.GetAllAsync();
+    }
+
+}

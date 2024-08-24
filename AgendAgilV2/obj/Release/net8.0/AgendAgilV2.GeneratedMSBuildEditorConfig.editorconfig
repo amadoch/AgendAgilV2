@@ -22,13 +22,41 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Pages/AddNew.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGROZXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Pages/ListSchedules.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0U2NoZWR1bGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Pages/RemoveSchedule.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZW1vdmVTY2hlZHVsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Pages/UpdateSchedule.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVcGRhdGVTY2hlZHVsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/ScheduleDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTY2hlZHVsZURpc3BsYXkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/ScheduleForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTY2hlZHVsZUZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/DeleteConfirmDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWxldGVDb25maXJtRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-qk2wdw4kbx
 
 [E:/Arca/Workspace/amadoch/AgendAgilV2/AgendAgilV2/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==

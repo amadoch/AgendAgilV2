@@ -3,7 +3,6 @@ using AgendAgilV2.Components;
 using AgendAgilV2.Infrastructure.Context;
 using AgendAgilV2.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

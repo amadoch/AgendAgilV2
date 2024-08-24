@@ -1,0 +1,91 @@
+﻿@inject IScheduleRepository Repository
+
+@if(schedule is not null)
+{
+    <EditForm Enhance="true" method="post" FormName="AddOrEditScheduleForm" OnValidSubmit="AddOrEditSchedule" Model="schedule" autocomplete="off">
+        <h3>
+            @Title
+        </h3>
+        @if(IsEditMode)
+        {
+            <input type="hidden" name="schedule.Id" value="@schedule.Id"/>
+        }
+        <div class="mb-3">
+            <label for="title" class="form-label">
+                Asunto
+            </label>
+            <InputText id="title" @bind-Value="schedule.Title" class="form-control shadow-none" />
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">
+                Descipción
+            </label>
+            <InputText id="description" @bind-Value="schedule.Description" class="form-control shadow-none" />
+        </div>
+        <div class="mb-3">
+            <label for="deadline" class="form-label">
+                Fecha Limite
+            </label>
+            <InputDate id="deadline" @bind-Value="schedule.DeadLine" class="form-control shadow-none" />
+        </div>
+        <div class="mb-3">
+            <label for="category" class="">
+                Categoría
+            </label>
+            <InputSelect id="category" @bind-Value="schedule.Category" class="form-control shadow-none">
+                <option value="0">
+                    Selecciona una Categoría
+                </option>
+                @foreach (var category in Enum.GetValues(typeof(Category)))
+                {
+                    <option value="@category">
+                        @category.ToString()
+                    </option>
+                }
+            </InputSelect>
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary shadow-none">
+                Guardar
+            </button>
+            <a href="/" class="btn btn-secondary shadow-none ms-3">
+                Cancelar
+            </a>
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+        </div>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public bool IsEditMode { get; set; } = false;
+
+    [Parameter]
+    public int scheduleId { get; set; }
+
+    [Parameter]
+    public EventCallback<Schedule> OnValidScheduleSubmit { get; set; }
+
+    [SupplyParameterFromForm]
+    public Schedule? schedule { get; set; }
+
+    private string Title => IsEditMode ? $"Actualizar Cronograma {scheduleId}" : "Añadir Cronograma";
+
+    protected override async Task OnInitializedAsync()
+    {
+        if(IsEditMode)
+        {
+            schedule ??= await Repository.GetByIdAsync(scheduleId);
+        }
+        else
+        {
+            schedule ??= new();
+        }
+    }
+
+    private async Task AddOrEditSchedule()
+    {
+        await OnValidScheduleSubmit.InvokeAsync(schedule);
+    }
+}

@@ -1,0 +1,23 @@
+﻿@page "/edit/{id:int}"
+@inject NavigationManager Navigation
+@inject IScheduleRepository Repository
+
+<PageTitle>Actualizar Cronograma</PageTitle>
+
+<div class="row justify-content-center">
+    <div class="col-6">
+        <ScheduleForm IsEditMode="true" scheduleId="@Id" OnValidScheduleSubmit="EditSchedule" />
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private async Task EditSchedule(Schedule schedule)
+    {
+        await Repository.UpdateAsync(schedule);
+        Navigation.NavigateTo("/");
+    }
+}

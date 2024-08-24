@@ -8,10 +8,10 @@ namespace AgendAgilV2.Domain.Entities
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Define el Asunto del Evento")]
-        [StringLength(128)]
+        [StringLength(66)]
         public string? Title { get; set; }
 
-        [StringLength(128)]
+        [StringLength(75)]
         public string? Description { get; set; }
 
         [Required(ErrorMessage = "Indica una fecha valida")]

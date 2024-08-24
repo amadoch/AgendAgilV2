@@ -1,0 +1,60 @@
+﻿@inject IScheduleRepository Repository
+@inject NavigationManager Navigation
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Operaciones</th>
+            <th scope="col">Asunto</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Tiempo Limite</th>
+            <th scope="col">Categoria</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="rowgroup">
+                <td>
+                <a href="@($"/edit/{schedule.Id}")" class="btn btn-warning shadow-none">
+                    Renovar
+                </a>
+                </td>
+                <td>
+                <button @onclick="OpenConfirmDialog" class="btn btn-danger shadow-none ms-3">
+                    Borrar
+                </button>
+                </td>
+            </th>
+            <td>@schedule.Title</td>
+            <td>@schedule.Description</td>
+            <td>@schedule.DeadLine</td>
+            <td>@schedule.Category</td>
+        </tr>
+    </tbody>
+</table>
+
+<DeleteConfirmDialog Show="ShowConfirmDialog" OnCancel="CancelDelete" OnAgreed="DeleteSchedule" />
+
+@code {
+    [Parameter]
+    public required Schedule schedule { get; set; }
+
+    private bool ShowConfirmDialog;
+
+    private void OpenConfirmDialog()
+    {
+        ShowConfirmDialog = true;
+    }
+
+    private void CancelDelete()
+    {
+        ShowConfirmDialog = false;
+    }
+
+    private async Task DeleteSchedule()
+    {
+        await Repository.DeleteByIdAsync(schedule.Id);
+        ShowConfirmDialog = false;
+        Navigation.NavigateTo("/");
+    }
+}
